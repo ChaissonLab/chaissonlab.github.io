@@ -2,10 +2,10 @@
 title: members
 permalink: /members/
 ---
-Trying to get some text here
+Trying to get some text here 2
 {% assign people_sorted = site.members | sort: 'seniority' %}
 {% assign role_array = "pi|postdoc|gradstudent|researchstaff|visiting|others|alumni" | split: "|" %}
-
+<h2> {{site.members}} </h2>
 {% for members in site.members%}
 <h2> {{member.name}} </h2> 
 {% endfor %}

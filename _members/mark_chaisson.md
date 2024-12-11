@@ -1,6 +1,6 @@
 ---
 name: Mark Chaisson
-title: Mark Chaisson - Associate Professor
+title: Associate Professor
 position: Associate Professor
 avatar: chaisson.png
 role: pi
