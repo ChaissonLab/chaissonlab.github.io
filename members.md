@@ -2,17 +2,14 @@
 title: members
 permalink: /members/
 ---
-Version 8
 
 {% assign people_sorted = site.members | sort: 'seniority' %}
 
 
 
 {% assign role_array = "pi|postdoc|gradstudent|researchstaff|visiting|others|alumni" | split: "|" %}
-<h1> Role array {{role_array}} </h1>
 {% for role in role_array %}
 {% assign people_in_role = people_sorted | where: 'role', role %}
-<h2> People in role: {{people_in_role}} {{role}} </h2>
 {% if people_in_role.size == 0 %}
 <!-- Skip section if there's nobody -->
   {% continue %}
