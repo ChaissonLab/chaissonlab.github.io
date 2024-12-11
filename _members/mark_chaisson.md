@@ -7,7 +7,7 @@ role: pi
 seniority: 1
 ---
 
-<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
+<img height="200" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
 
 <i class="fa fa-envelope-o"></i> `mchaisso@usc.edu`<br>
