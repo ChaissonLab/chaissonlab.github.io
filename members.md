@@ -37,6 +37,7 @@ Site members;
 <div class="content list people">
   {% for profile in people_sorted %}
     {% if profile.role contains role %}
+     <h3> Text here?? {{profile.name}} </h3>
       <div class="list-item-people">
         <p class="list-post-title">
           {% if profile.avatar %}
