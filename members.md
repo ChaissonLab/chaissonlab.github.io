@@ -10,8 +10,8 @@ Version 5
 
 {% assign people_in_role = people_sorted | where: 'position', role %}
 
-<!-- Skip section if there's nobody -->
 {% if people_in_role.size == 0 %}
+<!-- Skip section if there's nobody -->
   {% continue %}
 {% endif %}
 
@@ -39,6 +39,7 @@ Version 5
     {% if profile.role contains role %}
       <div class="list-item-people">
         <p class="list-post-title">
+	  Name: {% profile.name %}
           {% if profile.avatar %}
             <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
           {% else %}
