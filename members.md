@@ -6,8 +6,8 @@ Trying to get some text here 2
 {% assign people_sorted = site.members | sort: 'seniority' %}
 {% assign role_array = "pi|postdoc|gradstudent|researchstaff|visiting|others|alumni" | split: "|" %}
 <h2> all members: {{site.members}} </h2>
-{% for members in site.members%}
-<h2> {{member.name}} </h2> 
+{% for member in site.members%}
+<h2>Member: {{member.name}} </h2> 
 {% endfor %}
 
 {% for role in role_array %}
