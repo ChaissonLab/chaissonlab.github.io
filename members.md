@@ -4,7 +4,7 @@ layout: page
 permalink: /members/
 ---
 
-{% assign people_sorted = site.people | sort: 'seniority' %}
+{% assign people_sorted = site.members | sort: 'seniority' %}
 {% assign role_array = "pi|postdoc|gradstudent|researchstaff|visiting|others|alumni" | split: "|" %}
 
 {% for role in role_array %}
