@@ -36,7 +36,6 @@ Version 4
 {% if role != 'alumni' %}
 <div class="content list people">
   {% for profile in people_sorted %}
-   Profile: {% profile.name %}
     {% if profile.role contains role %}
       <div class="list-item-people">
         <p class="list-post-title">
