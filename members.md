@@ -6,6 +6,10 @@ Trying to get some text here
 {% assign people_sorted = site.members | sort: 'seniority' %}
 {% assign role_array = "pi|postdoc|gradstudent|researchstaff|visiting|others|alumni" | split: "|" %}
 
+{% for members in site.members%}
+<h2> {{member.name}} </h2> 
+{% endfor %}
+
 {% for role in role_array %}
 
 {% assign people_in_role = people_sorted | where: 'position', role %}
