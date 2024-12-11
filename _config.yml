@@ -72,6 +72,17 @@ author:
   youtube          : # Username
   zhihu            : # Username
 
+nav:
+  - name:           "home"
+    href:           "/"
+  - name:           "About"
+    href:           "/about"
+  - name:           "Publications"
+    href:           "/publication"
+  - name:           "Software"
+    href:           "/software"
+  - name:           "Members"
+    href:           "/members"
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
