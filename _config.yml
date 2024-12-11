@@ -234,6 +234,10 @@ collections:
 
 
 # These settings control how pages and collections are included in the site
+collections:
+   members:
+      output: true
+
 defaults:
   # _posts
   - scope:
