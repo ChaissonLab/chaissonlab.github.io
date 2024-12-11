@@ -2,12 +2,13 @@
 title: members
 permalink: /members/
 ---
-Version 6
+Version 7
 {% assign people_sorted = site.members | sort: 'seniority' %}
 {% assign role_array = "pi|postdoc|gradstudent|researchstaff|visiting|others|alumni" | split: "|" %}
-
+Sorted people
+{% people_sorted %}
+Done sorted people
 {% for role in role_array %}
-
 {% assign people_in_role = people_sorted | where: 'position', role %}
 
 {% if people_in_role.size == 0 %}
@@ -39,7 +40,6 @@ Version 6
     {% if profile.role contains role %}
       <div class="list-item-people">
         <p class="list-post-title">
-	  Name: {% profile.name %}
           {% if profile.avatar %}
             <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
           {% else %}
