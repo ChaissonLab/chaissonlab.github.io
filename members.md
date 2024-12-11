@@ -1,6 +1,7 @@
 ---
 title: Members
-permalink: /Members/
+layout: page
+permalink: /members/
 ---
 
 {% assign people_sorted = site.people | sort: 'seniority' %}
