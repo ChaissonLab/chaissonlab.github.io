@@ -6,6 +6,9 @@ Version 7
 Site members;
 <H3>: {{site.members}} </H3>
 {% assign people_sorted = site.members | sort: 'seniority' %}
+People sorted:
+<h1> {{ people_sorted}} </h1>
+
 {% assign role_array = "pi|postdoc|gradstudent|researchstaff|visiting|others|alumni" | split: "|" %}
 {% for role in role_array %}
 {% assign people_in_role = people_sorted | where: 'position', role %}
