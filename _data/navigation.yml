@@ -9,7 +9,7 @@ main:
     url: /about/
 
   - title: "Members"
-    url: /members/    
+    url: /Members/    
 
   - title: "Publications"
     url: /publications/    
