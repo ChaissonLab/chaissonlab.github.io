@@ -2,12 +2,12 @@
 title: members
 permalink: /members/
 ---
-Trying to get some text here 2
+Version 3
 {% assign people_sorted = site.members | sort: 'seniority' %}
 {% assign role_array = "pi|postdoc|gradstudent|researchstaff|visiting|others|alumni" | split: "|" %}
 <h2> all members: {{site.members}} </h2>
 {% for member in site.members%}
-<h2>Member: {{member.name}} </h2> 
+<h2>Member: {{member.name}} {{member.seniority}} </h2> 
 {% endfor %}
 
 {% for role in role_array %}
@@ -40,7 +40,7 @@ Trying to get some text here 2
 {% if role != 'alumni' %}
 <div class="content list people">
   {% for profile in people_sorted %}
-    {% if profile.position contains role %}
+    {% if profile.role contains role %}
       <div class="list-item-people">
         <p class="list-post-title">
           {% if profile.avatar %}
