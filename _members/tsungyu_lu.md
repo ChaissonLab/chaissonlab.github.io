@@ -7,7 +7,7 @@ role: postdoc
 seniority: 2018
 ---
 
-<img height="200" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
+<img height="100" src="{{site.baseurl}}/images/people/{{page.avatar}}">
 
 
 <i class="fa fa-envelope-o"></i> `dhaivatj@usc.edu`<br>

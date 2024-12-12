@@ -7,7 +7,7 @@ role: gradstudent
 seniority: 2020
 ---
 
-<img height="200" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
+<img height="100" src="{{site.baseurl}}/images/people/{{page.avatar}}">
 
 
 <i class="fa fa-envelope-o"></i> `bidagu@usc.edu`<br>
