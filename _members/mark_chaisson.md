@@ -4,7 +4,7 @@ title: Associate Professor
 position: Associate Professor
 avatar: chaisson.png
 role: pi
-seniority: 1
+seniority: 2017
 ---
 
 <img height="200" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
