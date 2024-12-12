@@ -2,12 +2,12 @@
 name: Keon Rabbani
 title: Computational scientist
 position: Computational scientist
-avatar: keon.png
+avatar: keon.jpb
 role: researchstaff
 seniority: 2020
 ---
 
-<img height="100" src="{{site.baseurl}}/images/people/{{page.avatar}}">
+<img height="100" src="{{site.baseurl}}/images/people/{{page.avatar}}" style="width: 100px;" alt="Keon Rabbani face">
 
 
 <i class="fa fa-envelope-o"></i> `krabbani@usc.edu`<br>
