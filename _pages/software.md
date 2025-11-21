@@ -29,7 +29,7 @@ seg_lra:
   - image_path: /software/lra.png
     title: "LRA"
     excerpt: |
-      test {% Software for mapping long reads (PacBio/Oxford Nanopore) or their assemblies to genomes. LRA implements an exact convex gap penalty for biologically meaningful gaps to discover structural variation.  %}
+      Software for mapping long reads (PacBio/Oxford Nanopore) or their assemblies to genomes. LRA implements an exact convex gap penalty for biologically meaningful gaps to discover structural variation.  
       "git:" {{ https://github.com/chaissonlab/lra }}  
       "bioconda:" lra  
       "publication:" {{ https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009078 }}  
@@ -37,9 +37,9 @@ seg_lra:
     
 seg_danbing-tk:
    - image_path: /software/danging-tk.png
-     title: danbing-tk
+     title: "danbing-tk"
      excerpt: |
-       Test. {% A method to map short-read sequences into locus-specific pangenome graphs implemented as de Bruijn graphs to estimate tandem repeat variation by length and composition. %}  
+       Test. {% A method to map short read sequences into locus-specific pangenome graphs implemented as de Bruijn graphs to estimate tandem repeat variation by length and composition. %}  
      "git:" {{ https://github.com/chaissonlab/danbing-tk}}  
      "publications:" {{ https://genome.cshlp.org/content/33/4/511.short }}, {{ https://www.nature.com/articles/s41467-021-24378-0 }}  
      "author:" [Tony Tsung-Yu Lu]({% link tsungyu_lu.md %})
