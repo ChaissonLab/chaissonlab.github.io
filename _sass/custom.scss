@@ -1,7 +1,7 @@
 /* Make all feature_row images the same size */
 .feature__item .archive__item-teaser img {
-  width: 200px;      /* or whatever size you want */
-  height: 200px;     /* set equal width/height for uniform square thumbnails */
+  width: 100px;      /* or whatever size you want */
+  height: 100px;     /* set equal width/height for uniform square thumbnails */
   object-fit: cover; /* crop edges if needed so aspect ratio looks consistent */
   border-radius: 6px; /* optional, looks nicer */
 }
