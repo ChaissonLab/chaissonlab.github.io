@@ -3,7 +3,7 @@ name: Keon Rabbani
 title: Computational scientist
 position: Computational scientist
 avatar: keon.jpg
-role: researchstaff
+role: alumni
 seniority: 2020
 ---
 
