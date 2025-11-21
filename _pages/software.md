@@ -19,9 +19,9 @@ seg_ctyper:
   - image_path: /software/ctyperlogo.png
     title: "ctyper"
     excerpt: |
-      Ctyper is a genotyping approach for pangenomes to detect alleles that are shared between a biobank (short-read sequencing) sample and a long-read pangenome for challenging and copy-number variable regions of the genome.
+      Ctyper is a genotyping approach for pangenomes to detect alleles that are shared between a biobank (short-read sequencing) sample and a long-read pangenome for challenging and copy-number variable regions of the genome.  
       "bioconda:" ctyper  
-      "git:" {{ https://github.com/chaissonlab/ctyper }}  
+      "git:" https://github.com/chaissonlab/ctyper  
       "publication:" {{ https://www.nature.com/articles/s41588-025-02346-4 }}  
       "author:" [Walfred Ma]({% link Walfred_ma.md %})
     
