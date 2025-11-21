@@ -39,8 +39,8 @@ seg_danbing-tk:
    - image_path: /software/danging-tk.png
      title: "danbing-tk"
      excerpt: |
-       Test. {% A method to map short read sequences into locus-specific pangenome graphs implemented as de Bruijn graphs to estimate tandem repeat variation by length and composition. %}  
-     "git:" {{ https://github.com/chaissonlab/danbing-tk}}  
+       Test.   
+     "git:" {{ https://github.com/chaissonlab/danbing-tk }}  
      "publications:" {{ https://genome.cshlp.org/content/33/4/511.short }}, {{ https://www.nature.com/articles/s41467-021-24378-0 }}  
      "author:" [Tony Tsung-Yu Lu]({% link tsungyu_lu.md %})
      
