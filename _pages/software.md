@@ -35,7 +35,14 @@ seg_lra:
       "publication:" {{ https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009078 }}  
       "author:" Jingwen Ren
     
-
+seg_danbing-tk:
+   - image_path: /software/danging-tk.png
+     title: "danbing-tk"
+     excerpt: |
+       Test.   
+     "git:" {{ https://github.com/chaissonlab/danbing-tk }}  
+     "publications:" {{ https://genome.cshlp.org/content/33/4/511.short }}, {{ https://www.nature.com/articles/s41467-021-24378-0 }}  
+     "author:" [Tony Tsung-Yu Lu]({% link tsungyu_lu.md %})
 ---
 {% include feature_row id="seg_ctyper" type="left" %}
 {% include feature_row id="seg_vamos" type="left" %}
