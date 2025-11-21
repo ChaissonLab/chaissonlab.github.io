@@ -16,7 +16,7 @@ seg_vamos:
       authors: Jingwen Ren and [Bida Gu] ({%Bida_Gu.md%})  
 seg_ctyper:
   - image_path: /software/ctyperlogo.png
-    title: "vamos"
+    title: "ctyper"
     excerpt: |
       Ctyper is a genotyping approach for pangenomes to detect alleles that are shared between a biobank (short-read sequencing) sample and a long-read pangenome for challenging and copy-number variable regions of the genome.
       bioconda: ctyper  
