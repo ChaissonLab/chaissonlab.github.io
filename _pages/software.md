@@ -23,7 +23,7 @@ seg_ctyper:
       bioconda: ctyper  
       git: https://github.com/chaissonlab/ctyper  
       publication: https://www.nature.com/articles/s41588-025-02346-4   
-      author: [Walfred Ma]({% link Walfred_ma.md %})
+      author: [Walfred Ma]({% link Walfred_Ma.md %})
     
 seg_lra:
   - image_path: /software/lra.png
