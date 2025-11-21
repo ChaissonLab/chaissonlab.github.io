@@ -13,7 +13,7 @@ seg_vamos:
       bioconda: vamos  
       git: https://github.com/chaissonlab/vamos
       publication:  https://link.springer.com/article/10.1186/s13059-023-03010-y  
-      authors: Jingwen Ren and [Bida Gu](/members/Bida_Gu.md/)
+      authors: Jingwen Ren and [Bida Gu](/members/Bida_Gu/)
     
 seg_ctyper:
   - image_path: /software/ctyperlogo.png
@@ -23,7 +23,7 @@ seg_ctyper:
       bioconda: ctyper  
       git: https://github.com/chaissonlab/ctyper  
       publication: https://www.nature.com/articles/s41588-025-02346-4   
-      author: [Walfred Ma]({% link _members/Walfred_Ma.md %})
+      author: [Walfred Ma](/members/Walfred_Ma/)
     
 seg_lra:
   - image_path: /software/lra.png
@@ -42,7 +42,7 @@ seg_danbing-tk:
        danbing-tk is a suite of tools to construct locus-specific de Bruijn graphs on tandem repeat loci from pangenomes (repeat-pangenome graphs), and to map short reads to the graphs. Length and motif variation can be inferred from alignment depth.  
        git: https://github.com/chaissonlab/danbing-tk  
        publications: https://genome.cshlp.org/content/33/4/511.short, https://www.nature.com/articles/s41467-021-24378-0  
-       author: [Tony Tsung-Yu Lu]({% link _members/tsungyu_lu.md %})
+       author: [Tony Tsung-Yu Lu](/members/tsungyu_lu.md/)
 ---
 {% include feature_row id="seg_ctyper" type="left" %}
 {% include feature_row id="seg_vamos" type="left" %}
