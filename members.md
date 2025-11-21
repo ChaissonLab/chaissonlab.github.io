@@ -58,7 +58,8 @@ permalink: /members/
 
 | Who are they | When were they here | Where they went |
 | :------------- |:-------------| :-----------|
-| [Jingwen Ren](https://https://github.com/Jingwen7) | Graduate Student (2017-2022) | Facebook research|
-
+| [Jingwen Ren](https://https://github.com/Jingwen7) | Graduate Student (2017-2022) | Facebook research |
+| [Quengin Jianzhi Yang](https://https://github.com/Jingwen7) | Graduate Student (2018-2023) | Google AI |
+| [Tony Tsung-Yu Lu](https://https://github.com/Jingwen7) | Graduate Student (2017-2022), Postdoc 2023-2024 | Natera |  |
 {% endif %}
 {% endfor %}
