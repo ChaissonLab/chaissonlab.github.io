@@ -29,7 +29,7 @@ seg_lra:
   - image_path: /software/lra.png
     title: "LRA"
     excerpt: |
-      Software for mapping long reads (PacBio/Oxford Nanopore) or their assemblies to genomes. LRA implements an exact convex gap penalty for biologically meaningful gaps to discover structural variation.  
+      test {% Software for mapping long reads (PacBio/Oxford Nanopore) or their assemblies to genomes. LRA implements an exact convex gap penalty for biologically meaningful gaps to discover structural variation.  %}
       "git:" https://github.com/chaissonlab/lra  
       "bioconda:" lra  
       "publication:" https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009078
