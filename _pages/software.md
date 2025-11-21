@@ -13,7 +13,7 @@ seg_vamos:
       bioconda: vamos  
       git: https://github.com/chaissonlab/vamos
       publication:  https://link.springer.com/article/10.1186/s13059-023-03010-y  
-      authors: Jingwen Ren and [Bida Gu]({% link _members/Bida_Gu.md %})
+      authors: Jingwen Ren and [Bida Gu](/members/Bida_Gu.md/)
     
 seg_ctyper:
   - image_path: /software/ctyperlogo.png
