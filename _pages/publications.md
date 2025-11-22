@@ -13,6 +13,6 @@ toc: true
 - **{{ pub.title }}** {{ pub.authors}}, 
    _{{ pub.venue }}_ ({{ pub.date | date: "%Y" }})
   {% if pub.doi %} <a href="https://doi.org/{{ pub.doi }}">doi</a>{% endif %}
-  {% if pub.pmid %} {{ pub.pmid }} {% endif %}
+  {% if pub.pmid %} PMID: {{ pub.pmid }} {% endif %}
 {% endfor %}
 
