@@ -10,7 +10,7 @@ toc: true
 
 {% assign pubs = site.publications | sort: 'date' | reverse %}
 {% for pub in pubs %}
-- **{{ pub.title }}**, {{ pub.content | markdownify }}
+- **{{ pub.title }}**, {{ pub.author}}
    {{ pub.venue }} ({{ pub.date | date: "%Y" }})
   <br>
   {% if pub.link %}<a href="{{ pub.link }}">link</a>{% endif %}
