@@ -10,9 +10,8 @@ toc: true
 
 {% assign pubs = site.publications | sort: 'date' | reverse %}
 {% for pub in pubs %}
-- **{{ pub.title }}**, {{ pub.author}}
+- **{{ pub.title }}**, {{ pub.authors}}
    {{ pub.venue }} ({{ pub.date | date: "%Y" }})
-  <br>
   {% if pub.link %}<a href="{{ pub.link }}">link</a>{% endif %}
   {% if pub.doi %} • <a href="https://doi.org/{{ pub.doi }}">doi</a>{% endif %}
 {% endfor %}
