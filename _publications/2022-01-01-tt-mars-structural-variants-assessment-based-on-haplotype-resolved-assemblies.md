@@ -3,7 +3,7 @@ title: "TT-Mars: structural variants assessment based on haplotype-resolved asse
 collection: publications
 date: 2022-01-01
 venue: "Genome Biology"
+authors: Yang, Jianzhi and Chaisson, Mark JP
+
 bibtex_key: "yang2022tt"
 ---
-
-*Authors:* Yang, Jianzhi and Chaisson, Mark JP

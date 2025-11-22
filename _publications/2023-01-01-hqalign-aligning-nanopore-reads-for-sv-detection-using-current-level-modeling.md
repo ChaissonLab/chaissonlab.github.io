@@ -3,7 +3,7 @@ title: "HQAlign: aligning nanopore reads for SV detection using current-level mo
 collection: publications
 date: 2023-01-01
 venue: "Bioinformatics"
+authors: Joshi, Dhaivat and Diggavi, Suhas and Chaisson, Mark JP and Kannan, Sreeram
+
 bibtex_key: "joshi2023hqalign"
 ---
-
-*Authors:* Joshi, Dhaivat and Diggavi, Suhas and Chaisson, Mark JP and Kannan, Sreeram

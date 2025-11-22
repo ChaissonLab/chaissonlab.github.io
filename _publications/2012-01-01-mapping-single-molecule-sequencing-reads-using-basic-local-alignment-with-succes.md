@@ -3,7 +3,7 @@ title: "Mapping single molecule sequencing reads using basic local alignment wit
 collection: publications
 date: 2012-01-01
 venue: "BMC bioinformatics"
+authors: Chaisson, Mark J and Tesler, Glenn
+
 bibtex_key: "chaisson2012mapping"
 ---
-
-*Authors:* Chaisson, Mark J and Tesler, Glenn

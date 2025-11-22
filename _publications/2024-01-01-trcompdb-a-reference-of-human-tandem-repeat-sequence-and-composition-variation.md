@@ -3,7 +3,7 @@ title: "TRCompDB: A reference of human tandem repeat sequence and composition va
 collection: publications
 date: 2024-01-01
 venue: "bioRxiv"
+authors: Gu, Bida and Chaisson, Mark JP
+
 bibtex_key: "gu2024trcompdb"
 ---
-
-*Authors:* Gu, Bida and Chaisson, Mark JP
