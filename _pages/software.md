@@ -36,7 +36,7 @@ seg_lra:
       author: Jingwen Ren
     
 seg_danbing_tk:
-   - image_path: /software/danging-tk.png
+   - image_path: /software/danbing-tk.png
      title: "danbing-tk"
      excerpt: |
        danbing-tk is a suite of tools to construct locus-specific de Bruijn graphs on tandem repeat loci from pangenomes (repeat-pangenome graphs), and to map short reads to the graphs. Length and motif variation can be inferred from alignment depth.  
