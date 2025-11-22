@@ -47,3 +47,4 @@ seg_danbing-tk:
 {% include feature_row id="seg_ctyper" type="left" %}
 {% include feature_row id="seg_vamos" type="left" %}
 {% include feature_row id="seg_lra" type="left" %}
+{% include feature_Row id="seg_danbing-tk" type="left" %}
