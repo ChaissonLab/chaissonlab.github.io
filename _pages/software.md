@@ -35,7 +35,7 @@ seg_lra:
       publication: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009078   
       author: Jingwen Ren
     
-seg_danbing-tk:
+seg_danbing_tk:
    - image_path: /software/danging-tk.png
      title: "danbing-tk"
      excerpt: |
@@ -47,3 +47,4 @@ seg_danbing-tk:
 {% include feature_row id="seg_ctyper" type="left" %}
 {% include feature_row id="seg_vamos" type="left" %}
 {% include feature_row id="seg_lra" type="left" %}
+{% include feature_row id="seg_danbing_tk" type="left" %}
