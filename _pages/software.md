@@ -24,7 +24,16 @@ seg_ctyper:
       git: https://github.com/chaissonlab/ctyper  
       publication: https://www.nature.com/articles/s41588-025-02346-4   
       author: [Walfred Ma](/members/Walfred_Ma/)
-    
+
+
+seg_owl:
+  - image_path: /software/owl-logo.png
+    title: "OWL"
+    excerpt: |
+      Detects microsatellite instability in PacBio HiFi reads
+      git: https://github.com/pacificbiosciences/owl/      
+      author: Zev Kronenberg
+
 seg_lra:
   - image_path: /software/lra.png
     title: "LRA"
@@ -46,5 +55,6 @@ seg_danbing_tk:
 ---
 {% include feature_row id="seg_ctyper" type="left" %}
 {% include feature_row id="seg_vamos" type="left" %}
+{% include feature_row id="seg_owl" type="left" %}
 {% include feature_row id="seg_lra" type="left" %}
 {% include feature_row id="seg_danbing_tk" type="left" %}
