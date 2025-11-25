@@ -27,7 +27,7 @@ seg_ctyper:
 
 
 seg_owl:
-  - image_path: /software/owl-logo.svg
+  - image_path: /software/owl-logo.png
     title: "OWL"
     excerpt: |
       Detects microsatellite instability in PacBio HiFi reads
