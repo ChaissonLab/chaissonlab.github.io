@@ -7,13 +7,13 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-title                    : "Chaisson lab"
-title_separator          : "-"
+locale                    : "en-US"
+title                     : "Chaisson lab"
+title_separator           : "-"
 #name                     : &name "Your Name"
 #description              : &description "personal description"
-#url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+url                       : https://chaissonlab.usc.edu  #https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                   : "" # the subpath of your site, e.g. "/blog"
 #repository               : "academicpages/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -24,7 +24,7 @@ author:
   avatar           : "LabXmas2022.jpg"
   name             : ""
   pronouns         : # example: "she/her"  
-  bio              : "Computational Biology"
+  bio              : "Quantitative and Computational Biology"
   employer         : "Universith of Southern California"
   uri              : # URL
 
